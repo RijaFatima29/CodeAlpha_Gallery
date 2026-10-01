@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Image Gallery</h1>
+  <nav class="filters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="animals">Animals</button>
+  </nav>
+</header>
+<main id="gallery" class="grid"></main>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="close" aria-label="Close">✕</button>
+  <button class="nav prev" aria-label="Previous">❮</button>
+  <figure>
+    <img id="lightbox-img" alt="">
+    <figcaption id="caption"></figcaption>
+  </figure>
+  <button class="nav next" aria-label="Next">❯</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
