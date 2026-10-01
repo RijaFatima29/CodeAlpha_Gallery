@@ -1,2 +1,2 @@
 # CodeAlpha_Gallery
-A responsive Gallery built with HTML, CSS and JavaScript. Supports addition, subtraction, multiplication and division, with clear, backspace, percentage and full keyboard support.
+A responsive image gallery built with HTML, CSS and JavaScript. Features category filters, hover effects and smooth transitions, and a lightbox viewer with next/previous navigation and keyboard controls.
